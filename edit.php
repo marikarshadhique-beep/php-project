@@ -21,14 +21,14 @@ if (!$student) {
 }
 if (isset($_POST['update']))
 {
-    $username = $_POST['username'];
-    $fullname = $_POST['fullname'];
-    $nic = $_POST['nic'];
-    $phone = $_POST['phone'];
-    $email = $_POST['email'];
-    $address = $_POST['address'];
-    $date = $_POST['registration_date'];
-    $time = $_POST['registration_time'];
+    $Username = $_POST['Username'];
+    $Fullname = $_POST['Fullname'];
+    $Nic = $_POST['Nic'];
+    $Phone = $_POST['Phone'];
+    $Email = $_POST['Email'];
+    $Address = $_POST['Address'];
+    $Date = $_POST['Registration_date'];
+    $Time = $_POST['Registration_time'];
 
     $sql = "UPDATE student set"
             . " username = ?,"
